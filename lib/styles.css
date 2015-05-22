@@ -1,8 +1,29 @@
 html body {
-	background-color: lightgrey;
+	background-color:#4b2727;
 	width: 100%;
 	height: 100%;
 	margin: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+.text {
+	color: #e50000;
+	font-size: 20px;
+	position: absolute;
+	top: 10%;
+	left: 32%;
+	text-align: center;
+}
+
+.title {
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	cursor: pointer;
+}
+
+h1 {
+	color: #e50000;
 }
 
 .ground {
@@ -13,4 +34,14 @@ html body {
 	min-width: 100%;
 	bottom: 0px;
 	margin: 0;
+}
+
+.next {
+	color: #e50000;
+	font-size: 20px;
+	position: absolute;
+	top: 25%;
+	left: 45%;
+	text-align: center;
+	cursor: pointer;
 }
