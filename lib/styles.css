@@ -45,3 +45,14 @@ h1 {
 	text-align: center;
 	cursor: pointer;
 }
+
+.hill {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	bottom: 70px;
+	right: 0px;
+	background-color: #007f00;
+	border-radius: 50%;
+	z-index: -1;
+}

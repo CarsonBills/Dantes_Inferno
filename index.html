@@ -14,7 +14,9 @@
 		<h1> Dante's Inferno </h1>
 	</div>
 	<div class="text">
-		<p> Midway in our life's journey, I went astray <br> from the straight road, and woke to find myself <br> alone in a dark wood. </p>
+		<p> 
+			Midway in our life's journey, I went astray <br> from the straight road, and woke to find myself <br> alone in a dark wood.
+		</p>
 	</div>
 	<div class="next">
 		<h1> Next </h1>
@@ -59,12 +61,23 @@
 	</div>
 	<div class="ground">
 	</div>
+	<div class="hill">
+	</div>
 
 	<script charset="utf-8">
 		$(function(){
 			loadStart()
 			clickTitle()
 
+			$(".next").click(function(){
+				$(".next").hide()
+				$(".text").fadeOut(2000, function(){
+					$(".text").html( "Death could scarce be more bitter than that place! <br> <br> But I found myself before a little hill, <br> and lifted up my eyes. Its shoulder glowed <br> already with the sweet rays of that planet <br> whose virtue leads men straight on every road." )
+				});
+				$(".text").fadeIn(2000)
+				$(".hill").fadeIn(2000)
+				
+			})
 
 		})
 	</script>
