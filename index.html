@@ -5,20 +5,28 @@
 	<title>The Inferno</title>
 	<link rel="stylesheet" href="/lib/dante.css">
 	<link rel="stylesheet" href="/lib/styles.css">
+	<link rel="stylesheet" href="/lib/animals.css">
+	<link rel="stylesheet" href="/lib/virgil.css">
 	<script src="/lib/jquery-1.11.2.js"></script>
 	<script src="/lib/scripts.js"></script>
 
 </head>
 <body>
 	<div class="title">
-		<h1> Dante's Inferno </h1>
+		<h1> Dante's Inferno <br> Canto I </h1>
 	</div>
 	<div class="text">
 		<p> 
 			Midway in our life's journey, I went astray <br> from the straight road, and woke to find myself <br> alone in a dark wood.
 		</p>
 	</div>
-	<div class="next">
+	<div class="next 1">
+		<h1> Next </h1>
+	</div>
+	<div class="next 2">
+		<h1> Next </h1>
+	</div>
+	<div class="next 3">
 		<h1> Next </h1>
 	</div>
 	<div class="dante">
@@ -63,20 +71,65 @@
 	</div>
 	<div class="hill">
 	</div>
+	<div class="animal lion">
+	</div>
+	<div class="animal leopard">
+	</div>
+	<div class="animal she_wolf">
+	</div>
+	<div class="sun">
+	</div>
+	<div class="virgil">
+		<div class="virgil_hair_1">
+		</div>
+		<div class="virgil_hair_2">
+		</div>
+		<div class="virgil_hair_3">
+		</div>
+		<div class="virgil_hair_4">
+		</div>
+		<div class="virgil_hair_5">
+		</div>
+		<div class="virgil_face">
+			<div class="virgil_eye">
+			</div>
+			<div class="virgil_mouth">
+			</div>
+		</div> 
+		<div class="virgil_body">
+			<div class="virgil_sleeve_1">
+			</div>	
+			<div class="virgil_sleeve_2">
+			</div>	
+			<div class="virgil_sleeve_3">
+			</div>	
+			<div class="virgil_sleeve_4">
+			</div>
+			<div class="virgil_sleeve_5">
+			</div>	
+			<div class="virgil_sleeve_6">
+			</div>
+			<div class="virgil_sleeve_7">
+			</div>
+			<div class="virgil_hand">
+			</div>
+			<div class="virgil_shoe">
+			</div>
+		</div>		
+	</div>
+
 
 	<script charset="utf-8">
 		$(function(){
 			loadStart()
 			clickTitle()
+			secondSlide()
+			thirdSlide()
 
-			$(".next").click(function(){
-				$(".next").hide()
-				$(".text").fadeOut(2000, function(){
-					$(".text").html( "Death could scarce be more bitter than that place! <br> <br> But I found myself before a little hill, <br> and lifted up my eyes. Its shoulder glowed <br> already with the sweet rays of that planet <br> whose virtue leads men straight on every road." )
-				});
-				$(".text").fadeIn(2000)
-				$(".hill").fadeIn(2000)
-				
+			$(".3").click(function(){
+				$(".virgil").animate({
+					opacity: 1,
+				})
 			})
 
 		})
