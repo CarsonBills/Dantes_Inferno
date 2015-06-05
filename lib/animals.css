@@ -5,19 +5,31 @@
 }
 
 .lion {
-	bottom: 150px;
+	bottom: 190px;
 	left: 70%;
-	background-color: yellow;
+}
+
+.lion_img {
+	width: 150%;
+	height: 150%;
 }
 
 .leopard {
-	bottom: 120px;
-	left: 73%;
-	background-color: grey;
+	bottom: 70px;
+	left: 76%;
+}
+
+.leopard_img {
+	width: 200%;
+	height: 200%;
 }
 
 .she_wolf {
-	bottom: 100px;
-	left: 76%;
-	background-color: brown;
+	bottom: 130px;
+	left: 73%;
+}
+
+.she_wolf_img {
+	width: 150%;
+	height: 150%;
 }

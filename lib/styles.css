@@ -11,8 +11,10 @@ html body {
 	font-size: 20px;
 	position: absolute;
 	top: 10%;
-	left: 32%;
+	left: 30%;
 	text-align: center;
+	width: 40%;
+	height: 20%;
 }
 
 .title {
@@ -24,7 +26,21 @@ html body {
 
 h1 {
 	color: #e50000;
-	text-align: center
+	text-align: center;
+	text-decoration: none;
+}
+
+a:link {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FF0000;
+}
+
+h2 {
+	color: white;
 }
 
 .ground {
@@ -45,6 +61,7 @@ h1 {
 	left: 45%;
 	text-align: center;
 	cursor: pointer;
+	margin-top: 10px;
 }
 
 .hill {
@@ -56,4 +73,21 @@ h1 {
 	background-color: #007f00;
 	border-radius: 50%;
 	z-index: -1;
+}
+
+.entrance {
+	position: absolute;
+	background-color: black;
+	width: 150px;
+	height: 50px;
+	bottom: 50px;
+	left: 400px;
+	border-radius: 150px / 50px;
+	z-index: 1;
+}
+
+.interrobang {
+	position: absolute;
+	bottom: 230px;
+	left: 465px;
 }
