@@ -1,0 +1,183 @@
+.dante {
+	position: absolute;
+	bottom: 80px;
+	left: 0px;
+	height: 150px;
+	width: 50px;
+	background-color: #e50000;
+	z-index: 2;
+	border-style: solid;
+	border-width: 3px;
+	opacity: 0;
+}
+
+.dante_face {
+	height: 40px;
+	width: 30px;
+	background-color: #FEB186;
+	float: right;
+	margin-top: 10px;
+	border-radius: 7px 0px 0px 7px;
+}
+.dante_laurel_1 {
+	position: absolute;
+	top: 15px;
+	height: 10px;
+	width: 15px;
+	background-color: darkgreen;
+	z-index: 1;
+}
+
+.dante_laurel_2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 10px;
+	width: 15px;
+	background-color: darkgreen;
+	z-index: 1;
+}
+
+.dante_laurel_3 {
+	position: absolute;
+	top: 5px;
+	left: 20px;
+	height: 10px;
+	width: 15px;
+	background-color: darkgreen;
+	z-index: 1;
+}
+
+.dante_laurel_4 {
+	position: absolute;
+	left: 30px;
+	height: 10px;
+	width: 15px;
+	background-color: darkgreen;
+	z-index: 1;
+}
+
+.dante_laurel_5 {
+	position: absolute;
+	bottom: 145px;
+	left: 40px;
+	height: 10px;
+	width: 15px;
+	background-color: darkgreen;
+	z-index: 1;
+}
+
+.dante_eye {
+	position: absolute;
+	left: 40px;
+	top: 18px;
+	height: 5px;
+	width: 5px;
+	background-color: black;
+}
+
+.dante_mouth {
+	position: absolute;
+	left: 35px;
+	top: 40px;
+	height: 2px;
+	width: 15px;
+	background-color: black;
+}
+
+.dante_body {
+	position: absolute;
+	top: 50px;
+	height: 100px;
+	background-color: red;
+}
+
+.dante_sleeve_1 {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 3px;
+	height: 15px;
+	background-color: black;
+}
+
+.dante_sleeve_2 {
+	position: absolute;
+	top: 32px;
+	left: 23px;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+}
+
+.dante_sleeve_3 {
+	position: absolute;
+	top: 40px;
+	left: 25px;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+}
+
+.dante_sleeve_4 {
+	position: absolute;
+	top: 20px;
+	left: 35px;
+	width: 3px;
+	height: 15px;
+	background-color: black;
+}
+
+.dante_sleeve_5 {
+	position: absolute;
+	top: 32px;
+	left: 38px;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+}
+
+.dante_sleeve_6 {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+}
+
+.dante_sleeve_7 {
+	position: absolute;
+	top: 47px;
+	left: 28px;
+	width: 12px;
+	height: 3px;
+	background-color: black;
+}
+
+.dante_hand {
+	position: absolute;
+	top: 50px;
+	left: 33px;
+	width: 10px;
+	height: 10px;
+	background-color: #FEB186;
+}
+
+.dante_shoe {
+	position: absolute;
+	top: 90px;
+	left: 35px;
+	height: 10px;
+	width: 15px;
+	background-color: black;
+}
+
+.flipped {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

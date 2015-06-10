@@ -1,0 +1,180 @@
+.virgil {
+	position: absolute;
+	bottom: 500px;
+	left: 100px;
+	height: 150px;
+	width: 50px;
+	background-color: white;
+	z-index: 1;
+	border-style: solid;
+	border-width: 3px;
+	opacity: 0;
+}
+
+.virgil_face {
+	height: 40px;
+	width: 30px;
+	background-color: #FEB186;
+	float: right;
+	margin-top: 10px;
+	border-radius: 7px 0px 0px 7px;
+}
+.virgil_hair_1 {
+	position: absolute;
+	height: 32px;
+	width: 15px;
+	background-color: #F4ED50;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.virgil_hair_2 {
+	position: absolute;
+	left: 10px;
+	height: 30px;
+	width: 15px;
+	background-color: #F4ED50;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.virgil_hair_3 {
+	position: absolute;
+	left: 20px;
+	height: 15px;
+	width: 15px;
+	background-color: #F4ED50;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.virgil_hair_4 {
+	position: absolute;
+	left: 30px;
+	height: 10px;
+	width: 15px;
+	background-color: #F4ED50;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.virgil_hair_5 {
+	position: absolute;
+	left: 35px;
+	height: 10px;
+	width: 15px;
+	background-color: #F4ED50;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.virgil_eye {
+	position: absolute;
+	left: 40px;
+	top: 18px;
+	height: 5px;
+	width: 5px;
+	background-color: black;
+}
+
+.virgil_mouth {
+	position: absolute;
+	left: 35px;
+	top: 40px;
+	height: 2px;
+	width: 15px;
+	background-color: black;
+}
+
+.virgil_body {
+	position: absolute;
+	top: 50px;
+	height: 100px;
+	background-color: red;
+}
+
+.virgil_sleeve_1 {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 3px;
+	height: 15px;
+	background-color: black;
+}
+
+.virgil_sleeve_2 {
+	position: absolute;
+	top: 32px;
+	left: 23px;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+}
+
+.virgil_sleeve_3 {
+	position: absolute;
+	top: 40px;
+	left: 25px;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+}
+
+.virgil_sleeve_4 {
+	position: absolute;
+	top: 20px;
+	left: 35px;
+	width: 3px;
+	height: 15px;
+	background-color: black;
+}
+
+.virgil_sleeve_5 {
+	position: absolute;
+	top: 32px;
+	left: 38px;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+}
+
+.virgil_sleeve_6 {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+}
+
+.virgil_sleeve_7 {
+	position: absolute;
+	top: 47px;
+	left: 28px;
+	width: 12px;
+	height: 3px;
+	background-color: black;
+}
+
+.virgil_hand {
+	position: absolute;
+	top: 50px;
+	left: 33px;
+	width: 10px;
+	height: 10px;
+	background-color: #FEB186;
+}
+
+.virgil_shoe {
+	position: absolute;
+	top: 90px;
+	left: 35px;
+	height: 10px;
+	width: 15px;
+	background-color: black;
+}
